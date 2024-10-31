@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://chenfeisun.github.io/</loc>
+  </url><url>
     <loc>https://chenfeisun.github.io/about/</loc>
+  </url><url>
+    <loc>https://chenfeisun.github.io/contact/</loc>
   </url><url>
     <loc>https://chenfeisun.github.io/categories/</loc>
   </url><url>
-    <loc>https://chenfeisun.github.io/</loc>
+    <loc>https://chenfeisun.github.io/research/</loc>
   </url><url>
     <loc>https://chenfeisun.github.io/tags/</loc>
   </url>

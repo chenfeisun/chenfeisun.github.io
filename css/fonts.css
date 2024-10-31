@@ -1,6 +1,24 @@
 body {
-  font-family: Optima, Candara, Calibri, Arial, sans-serif;
+    font-family: Optima, Candara, Calibri, Arial, sans-serif;
+    font-size: 18px; /* adjust size as needed */
+    /* line-height: 1.5; */
 }
+
+/* Apply Merriweather to all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700; /* bold for emphasis */
+}h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* Optional: fine-tune heading sizes for readability */
+h1 { font-size: 2em; }
+h2 { font-size: 26px; }
+h3 { font-size: 24px; }
+
 code {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 85%;
