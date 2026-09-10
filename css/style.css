@@ -1,90 +1,55 @@
 body {
-  max-width: 850px;
+  background: #fff;
+  color: #111;
+  max-width: 900px;
   margin: auto;
-  padding: 0.8em;
-  line-height: 1.5;
+  padding: 2em 1em;
+  line-height: 1.6;
 }
 
-/* header and footer areas */
-.menu {
-    padding: 2px;
-    text-align: left;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.menu li {
-    display: inline-block;
-    margin-right: 5px;
-}
-.menu a {
-  text-decoration: none;
-  background: #eee;
-  padding: 5px;
-  border-radius: 5px;
+a {
+  color: #1155cc;
+  text-decoration: underline;
 }
 
-.mname {
-    margin-left: auto;
-    padding: 5px;
-    background: none;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
 }
 
-.menu a.aname {
-    background: none;
+h1 { font-size: 1.8em; margin-bottom: 0.2em; }
+h2 { font-size: 1.3em; margin-top: 1.8em; }
+h3 { font-size: 1.05em; margin-top: 1.2em; margin-bottom: 0.4em; }
+
+.article-meta { display: none; }
+
+.paper-title {
+  font-size: 1.1em;
+  font-weight: 700;
 }
-/*
-.article-meta {
-    text-decoration: none;
-    background: #eee;
-    padding-top: 2px;
-    padding-bottom: 10px;
-    /* padding: 5px; */
-    /* border-radius: 5px; */ */
-   /* height: 110px;
-    line-height: 1.2;
-} */
- 
-.article-meta, footer { text-align: center; }
-.title { font-size: 1em; }
-footer a { text-decoration: none; }
+.paper-title a { text-decoration: none; }
+.paper-title a:hover { text-decoration: underline; }
+
 hr {
-  border-style: dashed;
-  color: #ddd;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2em 0;
 }
 
-/* code */
+footer { text-align: center; color: #666; font-size: 0.85em; }
+footer a { text-decoration: none; }
+footer hr { margin-top: 3em; }
+
 pre {
   border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
   padding: 1em;
   overflow-x: auto;
 }
-code { background: #f9f9f9; }
-pre code { background: none; }
+code { font-family: "Lucida Console", Monaco, monospace; font-size: 85%; }
 
-/* misc elements */
-img, iframe, video { max-width: 100%; }
-
-.centered-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
-    /* width: 50%;*/
-    height:auto;
-}
-
-
-main { hyphens: auto; }
 blockquote {
-  background: #f9f9f9;
-  border-left: 5px solid #ccc;
-  padding: 1px 1em 1px;
+  border-left: 3px solid #ccc;
+  padding-left: 1em;
   margin-left: 0;
-  width: 100%;
-  font-size: 16px;
 }
 
 table {
@@ -94,4 +59,7 @@ table {
 }
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
-thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+img, iframe, video { max-width: 100%; }
+
+main { hyphens: auto; }
